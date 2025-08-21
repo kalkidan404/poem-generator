@@ -1,0 +1,13 @@
+.welcome {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+body {
+  background-color: #c3b1e1;
+}
