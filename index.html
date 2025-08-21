@@ -15,33 +15,36 @@
     />
   </head>
   <body>
-    <header>
-      <h1 class="welcome">welcome to the english poem world</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1 class="welcome">welcome to the english poem world</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          autofocus
-          placeholder="Enter the topic "
-          autocomplete="off"
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The tree that never had to fight For sun and sky and air and light, But
-        stood out in the open plain And always got its share of rain, Never
-        became a forest king But lived and died a scrubby thing.
-      </div>
-    </main>
-    <footer>
-      this generator is coded by kalkidan, and is available on
-      <a href="https://github.com/kalkidan404/poem-generator">Github</a> and
-      published at<a href="https://generate-shepoem.netlify.app"> netlify</a>
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            autofocus
+            placeholder="Enter the topic "
+            autocomplete="off"
+            class="search-input"
+            required
+          />
+          <input class="input-bttn" type="submit" />
+        </form>
+        <div class="poem">
+          The tree that never had to fight For sun and sky and air and light,<br />
+          But stood out in the open plain And always got its share of rain,<br />
+          Never became a forest king But lived and died a scrubby thing.
+        </div>
+      </main>
+      <footer>
+        this generator is coded by kalkidan, and is available on
+        <a href="https://github.com/kalkidan404/poem-generator">Github</a> and
+        published at<a href="https://generate-shepoem.netlify.app"> netlify</a>
+      </footer>
 
-    <script src="poem.js"></script>
+      <script src="poem.js"></script>
+    </div>
   </body>
 </html>

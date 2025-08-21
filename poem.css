@@ -7,7 +7,39 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  color: #c3b1e1;
 }
 body {
-  background-color: #c3b1e1;
+  background-color: #f5fffa;
+}
+.search-input {
+  border-radius: 30px;
+
+  font-size: 30px;
+  padding: 15px;
+  background-color: #ffdab9;
+}
+.container {
+  max-width: 600px;
+  margin: 120px auto;
+}
+.input-bttn {
+  border-radius: 50px;
+
+  font-size: 30px;
+  padding: 15px;
+  background-color: #ffdab9;
+}
+footer {
+  margin-top: 20px;
+}
+.poem {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
