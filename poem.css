@@ -14,8 +14,8 @@ body {
 }
 .search-input {
   border-radius: 30px;
-
-  font-size: 30px;
+  width: 65%;
+  font-size: 20px;
   padding: 15px;
   background-color: #ffdab9;
 }
@@ -26,7 +26,7 @@ body {
 .input-bttn {
   border-radius: 50px;
 
-  font-size: 30px;
+  font-size: 20px;
   padding: 15px;
   background-color: #ffdab9;
 }
@@ -42,4 +42,25 @@ footer {
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+.poem {
+  color: #5a189a;
+}
+.ie {
+  color: #5a189a;
+  margin-top: 4px;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
