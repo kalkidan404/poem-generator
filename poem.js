@@ -4,13 +4,7 @@ let searchinput = document.querySelector(".search-input");
 let title = document.querySelector(".poem-input");
 function generator(event) {
   event.preventDefault();
-  new Typewriter(".poem", {
-    strings:
-      "The tree that never had to fight For sun and sky and air and light",
-    autoStart: true,
-    delay: 1,
-    cursor: "",
-  });
+
   let prompt = searchinput.value;
   poempro(prompt);
 }
@@ -25,5 +19,12 @@ function poempro(prompt) {
 }
 function handleresponse(response) {
   poemElement.innerHTML = response.data.answer;
+
+  new Typewriter(".poem", {
+    strings: response.data.answer,
+    autoStart: true,
+    delay: 2,
+    cursor: "",
+  });
 }
 title.addEventListener("submit", generator);
