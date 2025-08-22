@@ -16,10 +16,10 @@ function generator(event) {
 }
 
 function poempro(prompt) {
-  let context = "";
+  let context = "give me a short poem using the prompt as a title";
 
-  let apikey = "";
-  let apiurl = "";
+  let apikey = "de072a3do70f178f6a0bt43f94a33afc";
+  let apiurl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apikey}`;
 
   axios.get(apiurl).then(handleresponse);
 }
